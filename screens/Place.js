@@ -8,6 +8,7 @@ import {
 
 const Place = ({navigation, route}) => {
 
+    console.warn(navigation)
    const [selectedPlace, setSelectedPlace] = React.useState(null)
     React.useEffect(()=>{
         let {selectedPlace} = route.params;
