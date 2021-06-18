@@ -24,7 +24,7 @@ const EMPTY_ITEM_SIZE = (SIZES.width - PLACES_ITEM_SIZE) / 2;
 
 const Dashboard = ({ navigation }) => {
 
-  console.log('going to testing')
+  console.log('Once again testing')
   const countryScrollX = useRef(new Animated.Value(0)).current;
 
   const placesScrollX = useRef(new Animated.Value(0)).current;
